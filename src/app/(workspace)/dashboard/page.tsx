@@ -43,7 +43,7 @@ export default function DashboardPage() {
         <div>
           <span className="eyebrow"><Sparkles size={15} /> Thứ Ba, không gian tri thức sẵn sàng</span>
           <h1>Chào {firstName}, hôm nay toi co the giup gi? Thấy đoạn này là CICD thành công</h1>
-          <p>Theo dõi công văn và khai thác nội dung trong phạm vi được phân quyền.</p>
+          <p>Theo dõi công văn và khai thác nội dung.</p>
         </div>
         <div className="heading-actions">
           <Link href="/assistant" className="secondary-button"><BotMessageSquare size={18} /> Hỏi DocuMind</Link>
