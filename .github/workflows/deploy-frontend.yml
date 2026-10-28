@@ -33,10 +33,10 @@ concurrency:
 
 # Đây là phần khai báo các biến môi trường dùng chung cho toàn bộ workflow:
 env:
-  AWS_REGION: ap-southeast-2
-  ECR_REPOSITORY: documind/frontend # Tên ECR repository lưu image của frontend (check trên ECR)
-  ECS_CLUSTER: documind-cluster # Tên Cluster đã tạo trong ECS dùng để chạy dự án (check trên ECS)
-  ECS_SERVICE: documind-frontend-v2 # Tên Service nằm trong Cluster (LƯU Ý: frontend và backend chạy trên 2 service khác nhau)
+  AWS_REGION: us-west-1
+  ECR_REPOSITORY: binhpham/documind-fe # Tên ECR repository lưu image của frontend (check trên ECR)
+  ECS_CLUSTER: documind-buoi28 # Tên Cluster đã tạo trong ECS dùng để chạy dự án (check trên ECS)
+  ECS_SERVICE: buoi28-fronted-service-grvyj5n5 # Tên Service nằm trong Cluster (LƯU Ý: frontend và backend chạy trên 2 service khác nhau)
   CONTAINER_NAME: frontend # Tên container
 
 
